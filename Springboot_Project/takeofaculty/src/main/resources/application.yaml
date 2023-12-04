@@ -1,0 +1,12 @@
+server: 
+ port: 8080; 
+ 
+ spring: 
+  datasource:
+   url: jdbc:mysql://localhost:3306/tenzin
+   username: rinchen443	
+  password: rinchen344$
+ jpa:
+  hibernate:
+   ddl-aut: update
+   
